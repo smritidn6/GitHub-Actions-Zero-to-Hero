@@ -6,4 +6,4 @@ def add(a, b):
 def test_add():
     assert add(1, 2) == 3
     assert add(1, -1) == 0
-# adding a new line
+    assert add(2, 2) == 4
